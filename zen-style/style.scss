@@ -8,7 +8,7 @@
 }
 html {
   background-color: $background-color;
-  padding: 5%;
+  //padding: 5%;
 }
 
 body {
@@ -17,5 +17,33 @@ body {
   color: $text-dark;
   background-color: $primary;
   margin: 0;
-  padding: 1em;
+  //padding: 1em;
+}
+
+header {
+  display: grid;
+  grid-template-areas: 
+    "side header";
+  height: 250px;
+  background: orange;
+
+}
+h1 { 
+ grid-area: side;
+ transform: rotate(-90deg);
+ background: pink;
+ width: 50%;  
+}
+h2 {
+  grid-area: header;
+  background: orange;
+  width:100%;
+  align-self: flex-end;
+}
+
+.summary {
+  background: teal;
+  padding: 5px;
+  color: white;
+
 }

@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #E7E7E4;
+}
+
+body {
+  font-family: "Quicksand", Arial, sans-serif;
+  font-size: 85%;
+  color: #1F1E1A;
+  background-color: #A39A95;
+  margin: 0;
+}
+
+header {
+  display: grid;
+  grid-template-areas: "side header";
+  height: 250px;
+  background: orange;
+}
+
+h1 {
+  grid-area: side;
+  transform: rotate(-90deg);
+  background: pink;
+  width: 50%;
+}
+
+h2 {
+  grid-area: header;
+  background: orange;
+  width: 100%;
+  align-self: flex-end;
+}
+
+.summary {
+  background: teal;
+  padding: 5px;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
