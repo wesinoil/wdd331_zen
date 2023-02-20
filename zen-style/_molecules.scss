@@ -6,7 +6,7 @@
 [role="banner"] {
   > h1 {
     // notice we have to reference the 'atoms' namespace to find our mixins.
-    //@include atoms.uppercase($text-light);
+    @include atoms.uppercase($text-light);
   }
 }
 .summary {
@@ -22,6 +22,6 @@
 .preamble {
   background: rgba(255, 255, 255, 0.9);
   color: $text-dark;
-  margin-left: -30%;
-  padding: 5% 5% 5% 30%;
+  //margin-left: -30%;
+  //padding: 5% 5% 5% 30%;
 }
