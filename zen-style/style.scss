@@ -1,7 +1,10 @@
+//@use "reset";
 @use "variables" as *; //this puts all the variables in the global namespace.
-// @use 'atoms';
-//@use 'molecules';
-//@use 'organisms' as o;
+@use 'atoms';
+@use 'molecules';
+@use 'organisms' as o;
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Zen+Loop:ital@0;1&display=swap');
 
 * {
   box-sizing: border-box;
@@ -22,28 +25,12 @@ body {
 
 header {
   display: grid;
-  grid-template-areas: 
-    "side header";
-  height: 250px;
-  background: orange;
-
-}
-h1 { 
- grid-area: side;
- transform: rotate(-90deg);
- background: pink;
- width: 50%;  
-}
-h2 {
-  grid-area: header;
-  background: orange;
-  width:100%;
-  align-self: flex-end;
+  grid-template-columns: 1fr 3fr;
+  height: 350px;
 }
 
 .summary {
-  background: teal;
+  background: $accent2;
   padding: 5px;
   color: white;
-
 }

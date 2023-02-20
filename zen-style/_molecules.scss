@@ -6,7 +6,7 @@
 [role="banner"] {
   > h1 {
     // notice we have to reference the 'atoms' namespace to find our mixins.
-    @include atoms.uppercase($text-light);
+    //@include atoms.uppercase($text-light);
   }
 }
 .summary {

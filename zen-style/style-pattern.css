@@ -8,20 +8,28 @@ h4 {
 }
 
 h1 {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  height: 100%;
+  width: 100%;
   background: #345573;
-  color: #E7E7E4;
-  display: inline-block;
-  font-weight: normal;
+  color: #1F1E1A;
+  font-size: 3em;
+  font-weight: 800;
   margin-bottom: 1em;
-  padding: 0.5em 1em;
 }
 
 h2 {
+  grid-column: 2/-1;
+  height: 100%;
+  width: 100%;
   color: #3E613C;
   font-weight: 900; /* Heavy */
   font-size: 6em;
   letter-spacing: 1px;
   line-height: 1em;
+  align-items: end;
+  padding: 0.25em;
 }
 
 h3 {
@@ -54,7 +62,6 @@ a {
   text-decoration: none;
   transition: border-color 0.2s ease-in-out;
 }
-
 a:hover {
   border-color: #345573;
 }
@@ -129,15 +136,15 @@ section {
 }
 
 .uppercase {
-  font-weight: 300;
+  font-weight: 800;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #1F1E1A;
 }
 
 .uppercase-light {
-  font-weight: 300;
+  font-weight: 800;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #E7E7E4;
+  color: #1F1E1A;
 }/*# sourceMappingURL=style-pattern.css.map */
