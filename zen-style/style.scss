@@ -1,8 +1,18 @@
+//@use "reset";
 @use "variables" as *; //this puts all the variables in the global namespace.
-// @use 'atoms';
+@use 'atoms';
 //@use 'molecules';
 //@use 'organisms' as o;
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Zen+Loop:ital@0;1&display=swap');
+
+@mixin blue-box {
+  
+}
+
+@mixin light-box {
+  
+}
 * {
   box-sizing: border-box;
 }
@@ -22,28 +32,71 @@ body {
 
 header {
   display: grid;
-  grid-template-areas: 
-    "side header";
-  height: 250px;
-  background: orange;
+  grid-template-columns: 1fr 3fr;
+  height: 2
+  50px;
+}
 
+.preamble, .participation, .requirements, footer {
+  background: $background-color;
 }
-h1 { 
- grid-area: side;
- transform: rotate(-90deg);
- background: pink;
- width: 50%;  
-}
-h2 {
-  grid-area: header;
-  background: orange;
-  width:100%;
-  align-self: flex-end;
+
+.explanation, .benefits {
+  background: $accent1;
+  color: white;
 }
 
 .summary {
-  background: teal;
-  padding: 5px;
+  background: $accent2;
+  padding: 1em;
   color: white;
+}
 
+footer {
+  padding: 1em;
+}
+
+.design-selection {
+  .select {
+    background: $grey-sidebar;
+  }
+  nav { 
+    margin: 0;
+    padding: 0;
+    ul {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 0;
+      color: white;
+      li {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 200px;
+        width: 100%;
+        background: $accent1;
+        text-decoration: none;
+        padding: .5em;
+        font-size: 1.5em;
+        align-items: center;
+        text-align: center;
+        &:nth-child(even) {
+          background: $accent2;
+        }
+        a {
+          font: $fonts-body;
+          color: white;
+        }  
+      }
+    }
+  }
+}
+
+.design-archives, .zen-resources {
+  display: flex;
+  background: $primary;
+  font-size: 1em;
+  width: 100%;
+  padding: 1em 1em 1em 5em;
+  align-self: start;
+  text-decoration: none;
 }
