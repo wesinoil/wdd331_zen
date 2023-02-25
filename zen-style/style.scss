@@ -100,14 +100,14 @@ footer {
   align-self: start;
   text-decoration: none;
 }
-.infinity {
+.summary {
   position: relative;
   width: 212px;
   height: 100px;
   box-sizing: content-box;
   }
-  .infinity:before,
-  .infinity:after {
+  .summary:before,
+  .summary:after {
   content: "";
   box-sizing: content-box;
   position: absolute;
@@ -119,7 +119,7 @@ footer {
   border-radius: 50px 50px 0 50px;
   transform: rotate(-45deg);
   }
-  .infinity:after {
+  .summary:after {
   left: auto;
   right: 0;
   border-radius: 50px 50px 50px 0;
