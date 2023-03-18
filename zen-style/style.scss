@@ -3,6 +3,7 @@
 @use 'atoms';
 //@use 'molecules';
 //@use 'organisms' as o;
+@use 'layout';
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Zen+Loop:ital@0;1&display=swap');
 
@@ -100,12 +101,15 @@ footer {
   align-self: start;
   text-decoration: none;
 }
+
+/*  Infinity Loop
 .summary {
   position: relative;
   width: 212px;
   height: 100px;
   box-sizing: content-box;
   }
+  
   .summary:before,
   .summary:after {
   content: "";
@@ -125,3 +129,4 @@ footer {
   border-radius: 50px 50px 50px 0;
   transform: rotate(45deg);
   }
+  */
