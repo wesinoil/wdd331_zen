@@ -1,7 +1,7 @@
 //@use "reset";
 @use "variables" as *; //this puts all the variables in the global namespace.
 @use 'atoms';
-//@use 'molecules';
+@use 'molecules';
 //@use 'organisms' as o;
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Zen+Loop:ital@0;1&display=swap');
@@ -33,8 +33,8 @@ body {
 header {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  height: 2
-  50px;
+  height: 300px;
+
 }
 
 .preamble, .participation, .requirements, footer {
@@ -91,7 +91,7 @@ footer {
   }
 }
 
-.design-archives, .zen-resources {
+/*.design-archives, .zen-resources {
   display: flex;
   background: $primary;
   font-size: 1em;
@@ -105,23 +105,23 @@ footer {
   width: 212px;
   height: 100px;
   box-sizing: content-box;
+  &::before,
+  &::after {
+    content: "";
+    box-sizing: content-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    border: 20px solid black;
+    border-radius: 50px 50px 0 50px;
+    transform: rotate(-45deg);
   }
-  .summary:before,
-  .summary:after {
-  content: "";
-  box-sizing: content-box;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 60px;
-  height: 60px;
-  border: 20px solid black;
-  border-radius: 50px 50px 0 50px;
-  transform: rotate(-45deg);
+  &::after {
+    left: auto;
+    right: 0;
+    border-radius: 50px 50px 50px 0;
+    transform: rotate(45deg);
   }
-  .summary:after {
-  left: auto;
-  right: 0;
-  border-radius: 50px 50px 50px 0;
-  transform: rotate(45deg);
-  }
+}*/

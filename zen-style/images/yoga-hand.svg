@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="11.8716 1.45 20.43 27.35"
+   version="1.1"
+   id="svg12320"
+   sodipodi:docname="yoga-hand.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12324" />
+  <sodipodi:namedview
+     id="namedview12322"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="17.257769"
+     inkscape:cx="9.2711866"
+     inkscape:cy="14.428284"
+     inkscape:window-width="919"
+     inkscape:window-height="660"
+     inkscape:window-x="413"
+     inkscape:window-y="558"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg12320" />
+  <path
+     d="M 19 20 L 19 7 C 19 4 22 4 22 7 L 22 16 L 22 4 C 22 1 25 1 25 4 L 25 16 L 25 7 C 25 4 28 4 28 7 L 28 16 L 28 10 C 28 7 31 7 31 10 L 31 16 C 32 17 32 19 32 20 C 32 22 32 25 30 27 C 26 29 24 29 20 27 C 18 25 18 25 17 21 C 16 18 15 16 13 15 C 11 14 13 12 15 13 C 17 14 17 14 19 16"
+     stroke="#000"
+     stroke-width="0.3"
+     fill="none"
+     id="path12318" />
+  <path
+     sodipodi:type="spiral"
+     style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3;stroke-dasharray:none"
+     id="path13810"
+     sodipodi:cx="12.979661"
+     sodipodi:cy="20.28072"
+     sodipodi:expansion="1"
+     sodipodi:revolution="1.9847254"
+     sodipodi:radius="5.865097"
+     sodipodi:argument="-15.471459"
+     sodipodi:t0="0.18032777"
+     d="m 13.817563,19.635334 c 0.755845,0.409039 0.730835,1.457706 0.258297,2.068576 -0.759763,0.982177 -2.233887,0.904733 -3.104678,0.123822 -1.217362,-1.091711 -1.0830918,-3.016849 0.01065,-4.140779 1.417538,-1.456658 3.802637,-1.26361 5.176881,0.145129 1.698066,1.740689 1.445313,4.589897 -0.279605,6.212982 -2.062445,1.940686 -5.378031,1.627733 -7.2490837,-0.41408 C 7.600025,22.506978 7.0804017,20.977406 7.172383,19.459205"
+     transform="matrix(1.0004842,0,0,0.96712265,11.865675,0.99573998)"
+     inkscape:transform-center-x="0.17407127"
+     inkscape:transform-center-y="0.057966952" />
+</svg>
