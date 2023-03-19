@@ -105,3 +105,11 @@ dist
 
 
 .DS_Store
+zen-style/style.css.map
+zen-style/style-pattern.css.map
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+zen-style/style.css.map
+*.map
