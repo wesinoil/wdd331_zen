@@ -31,12 +31,58 @@
   &::after{
   content: "";
   position: absolute;
-  background-image: url(images/drop.svg);
+  background-image: url(images/yinyang.svg);
   background-repeat: no-repeat;
   background-position-x: bottom;
   height: 6rem;
   width: 6rem;
   right: 20px;
   bottom: 10px;
+  }
+}
+
+.preamble {
+  position: relative;
+  &::after{
+  content: "";
+  position: absolute;
+  background-image: url(images/yoga-hand.svg);
+  background-repeat: no-repeat;
+  background-position-x: bottom;
+  height: 6rem;
+  width: 6rem;
+  right: 40px;
+  top: -20px;
+  rotate: -90deg;
+  }
+}
+
+.participation {
+  position: relative;
+  &::after{
+  content: "";
+  position: absolute;
+  background-image: url(images/drop.svg);
+  background-repeat: no-repeat;
+  background-position-x: bottom;
+  height: 4rem;
+  width: 4rem;
+  right: 40px;
+  top: 10px;
+  }
+}
+
+.requirements {
+  position: relative;
+  &::after{
+  content: "";
+  position: absolute;
+  background-image: url(images/rocks2.svg);
+  background-repeat: no-repeat;
+  background-position-x: bottom;
+  height: 4rem;
+  width: 4rem;
+  right: 40px;
+  top: 10px;
   }
 }
