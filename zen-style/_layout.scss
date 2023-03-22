@@ -72,4 +72,11 @@
     }
 }
 
+@media only screen and (max-width: $large-breakpoint) {
+    
+    body {
+        max-width: 1024px;
+        margin: auto;
+    }
+}
 
