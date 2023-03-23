@@ -59,7 +59,27 @@
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-auto-flow: row;
     }
-
+    .explanation {
+        &::after{
+        right: 105%;
+        }
+      }
+      .intro h2 {
+        position: relative;
+        &::after{
+        right: 50%;
+        }
+      }
+      .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        align-items: start;
+        justify-items: center;
+    }
+    .design-selection {
+        grid-column: 1/3;
+    }
 }
 
 @media only screen and (min-width: $medium-breakpoint) {
@@ -70,6 +90,8 @@
         grid-template-rows: 1fr 1fr;
         grid-auto-flow: column;
     }
+
+    
 }
 
 

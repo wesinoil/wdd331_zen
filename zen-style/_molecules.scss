@@ -87,3 +87,18 @@
   top: 10px;
   }
 }
+
+.explanation {
+  position: relative;
+  &::after{
+  content: "";
+  position: absolute;
+  background-image: url(images/infinity2.svg);
+  background-repeat: no-repeat;
+  background-position-x: bottom;
+  height: 4rem;
+  width: 4rem;
+  right: 40px;
+  top: 10px;
+  }
+}
