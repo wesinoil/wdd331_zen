@@ -31,6 +31,7 @@
   position: relative;
   &::after{
   content: "";
+  animation: roll 40000s infinite;
   position: absolute;
   background-image: url(images/yinyang.svg);
   background-repeat: no-repeat;
@@ -42,20 +43,41 @@
   }
 }
 
+@keyframes roll {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(3600000deg);
+  }
+}
+
+
 .preamble {
   position: relative;
   &::after{
   content: "";
+  animation-name: wave;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
   position: absolute;
   background-image: url(images/yoga-hand.svg);
   background-repeat: no-repeat;
   background-position-x: bottom;
   height: 6rem;
   width: 6rem;
-  right: 40px;
+  right: 10px;
   top: -20px;
   rotate: -90deg;
   }
+}
+
+@keyframes wave {
+  0%  {rotate: -90deg;}
+  50% {rotate: 90deg;}
+  100% {rotate: -90deg;}
+
+
 }
 
 .participation {
@@ -77,6 +99,9 @@
   position: relative;
   &::after{
   content: "";
+  animation-name: float;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
   position: absolute;
   background-image: url(images/rocks2.svg);
   background-repeat: no-repeat;
@@ -88,6 +113,11 @@
   }
 }
 
+@keyframes float {
+  0%  {top: 12px;}
+  50% {top: -10px;}
+  100% {top: 12px;}
+}
 .explanation {
   position: relative;
   &::after{

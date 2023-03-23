@@ -99,6 +99,7 @@ a {
 }
 .intro h2::after {
   content: "";
+  animation: roll 40000s infinite;
   position: absolute;
   background-image: url(images/yinyang.svg);
   background-repeat: no-repeat;
@@ -109,22 +110,44 @@ a {
   bottom: 10px;
 }
 
+@keyframes roll {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(3600000deg);
+  }
+}
 .preamble {
   position: relative;
 }
 .preamble::after {
   content: "";
+  animation-name: wave;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
   position: absolute;
   background-image: url(images/yoga-hand.svg);
   background-repeat: no-repeat;
   background-position-x: bottom;
   height: 6rem;
   width: 6rem;
-  right: 40px;
+  right: 10px;
   top: -20px;
   rotate: -90deg;
 }
 
+@keyframes wave {
+  0% {
+    rotate: -90deg;
+  }
+  50% {
+    rotate: 90deg;
+  }
+  100% {
+    rotate: -90deg;
+  }
+}
 .participation {
   position: relative;
 }
@@ -145,6 +168,9 @@ a {
 }
 .requirements::after {
   content: "";
+  animation-name: float;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
   position: absolute;
   background-image: url(images/rocks2.svg);
   background-repeat: no-repeat;
@@ -155,6 +181,17 @@ a {
   top: 10px;
 }
 
+@keyframes float {
+  0% {
+    top: 12px;
+  }
+  50% {
+    top: -10px;
+  }
+  100% {
+    top: 12px;
+  }
+}
 .explanation {
   position: relative;
 }
@@ -170,6 +207,17 @@ a {
   top: 10px;
 }
 
+@keyframes float {
+  0% {
+    top: 12px;
+  }
+  50% {
+    top: -10px;
+  }
+  100% {
+    top: 12px;
+  }
+}
 @media only screen and (max-width: 480px) {
   #zen-supporting {
     display: block;
@@ -223,6 +271,9 @@ a {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-auto-flow: row;
   }
+  header h2 {
+    font-size: 5rem;
+  }
   .explanation::after {
     right: 105%;
   }
@@ -250,6 +301,13 @@ a {
     grid-template-rows: 1fr 1fr;
     grid-auto-flow: column;
   }
+  html {
+    max-width: 1024px;
+    margin: auto;
+  }
+  header h2 {
+    font-size: 7rem;
+  }
 }
 * {
   box-sizing: border-box;
@@ -271,6 +329,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 3fr;
   height: 300px;
+  font-size: 0.75rem;
 }
 
 .preamble, .participation, .requirements, footer {

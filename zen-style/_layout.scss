@@ -59,7 +59,11 @@
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-auto-flow: row;
     }
-    .explanation {
+    header h2 {
+        font-size: 5rem;
+      }
+      
+          .explanation {
         &::after{
         right: 105%;
         }
@@ -90,8 +94,14 @@
         grid-template-rows: 1fr 1fr;
         grid-auto-flow: column;
     }
-
     
+    html {
+        max-width: 1024px;
+        margin: auto ;
+    }
+    header h2 {
+        font-size: 7rem;
+      }
 }
 
 
