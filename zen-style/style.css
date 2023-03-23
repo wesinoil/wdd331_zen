@@ -132,7 +132,7 @@ a {
   background-position-x: bottom;
   height: 6rem;
   width: 6rem;
-  right: 40px;
+  right: 10px;
   top: -20px;
   rotate: -90deg;
 }
@@ -245,6 +245,9 @@ a {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-auto-flow: row;
   }
+  header h2 {
+    font-size: 5rem;
+  }
 }
 @media only screen and (min-width: 768px) {
   #design-selection nav ul {
@@ -256,6 +259,9 @@ a {
   html {
     max-width: 1024px;
     margin: auto;
+  }
+  header h2 {
+    font-size: 7rem;
   }
 }
 * {
@@ -278,6 +284,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 3fr;
   height: 300px;
+  font-size: 0.75rem;
 }
 
 .preamble, .participation, .requirements, footer {
