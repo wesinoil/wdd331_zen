@@ -207,17 +207,6 @@ a {
   top: 10px;
 }
 
-@keyframes float {
-  0% {
-    top: 12px;
-  }
-  50% {
-    top: -10px;
-  }
-  100% {
-    top: 12px;
-  }
-}
 @media only screen and (max-width: 480px) {
   #zen-supporting {
     display: block;
@@ -306,7 +295,7 @@ a {
     margin: auto;
   }
   header h2 {
-    font-size: 7rem;
+    font-size: 6rem;
   }
 }
 * {
@@ -338,13 +327,13 @@ header {
 
 .explanation, .benefits {
   background: #345573;
-  color: white;
+  color: #E7E7E4;
 }
 
 .summary {
   background: #3E613C;
   padding: 1em;
-  color: white;
+  color: #E7E7E4;
 }
 
 footer {
@@ -362,7 +351,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr;
   padding: 0;
-  color: white;
+  color: #E7E7E4;
 }
 .design-selection nav ul li {
   display: grid;
@@ -381,42 +370,5 @@ footer {
 }
 .design-selection nav ul li a {
   font: "Quicksand", Arial, sans-serif;
-  color: white;
-}
-
-/*.design-archives, .zen-resources {
-  display: flex;
-  background: $primary;
-  font-size: 1em;
-  width: 100%;
-  padding: 1em 1em 1em 5em;
-  align-self: start;
-  text-decoration: none;
-}
-
-/*  Infinity Loop
-.summary {
-  position: relative;
-  width: 212px;
-  height: 100px;
-  box-sizing: content-box;
-  &::before,
-  &::after {
-    content: "";
-    box-sizing: content-box;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 60px;
-    height: 60px;
-    border: 20px solid black;
-    border-radius: 50px 50px 0 50px;
-    transform: rotate(-45deg);
-  }
-  &::after {
-    left: auto;
-    right: 0;
-    border-radius: 50px 50px 50px 0;
-    transform: rotate(45deg);
-  }
-}*//*# sourceMappingURL=style.css.map */
+  color: #E7E7E4;
+}/*# sourceMappingURL=style.css.map */
